@@ -30,9 +30,8 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 # Custom Toolchain Flags
 TARGET_GCC_VERSION_ARM := 4.8-sm
 
-# Liquid Optimizations
-# LIQUIFY := true
-LIQUID_CHANGELOG := true
+# infamous Optimizations
+# OPTIMIZE := true
 
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE :=  2048
